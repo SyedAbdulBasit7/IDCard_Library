@@ -4,7 +4,7 @@ version = "0.1.2"
 authors = ["sabasit"]
 edition = "2018"
 description= "IOT ID card generator library"
-documentation = """You use my library by this way
+doc = """You use my library by this way
 extern crate menu_generator;
 use menu_generator::read_input as io;
 use menu_generator::student_registration as sg;
