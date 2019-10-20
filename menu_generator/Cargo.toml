@@ -1,9 +1,26 @@
 [package]
 name = "menu_generator"
-version = "0.1.0"
+version = "0.1.2"
 authors = ["sabasit"]
 edition = "2018"
+description= "You use my library by this way:
 
+extern crate menu_generator;
+use menu_generator::read_input as io;
+use menu_generator::student_registration as sg;
+
+let 'you variable name':char=io::char_read();
+let 'you variable name':String=io::str_read();
+let 'you variable name':int=io::int_read();
+let 'you variable name':float=io::float_read();
+
+//just give parameter by taking user input
+let student1=sg::Student::register(name,course,city,distance_learning);
+student1.display_card();
+//then it will show your IOT_ID-Card
+"
+license="MIT"
+repository="https://github.com/SyedAbdulBasit7/IDCard_Library.git"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
